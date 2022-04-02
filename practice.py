@@ -73,19 +73,43 @@
 #     print(new_words)
 # func('this is a long string aaaaaaaaaa')
 
-def func(str):
-    newlist = ""
-    ch = list(str)
-    print(ch)
-    for i in str:
-        if i != " ":
-            newlist = newlist + i
-    
-    print(newlist)
+# def check(s):
+#     temp=''
+#     status=0
+#     c1=1
+#     vowels=['a','e','i','o','u']
+#     for i in range(0,len(s)):
+#         for j in vowels:
+#             if s[i]==j or s[i]==j.upper():
+#                 status=1
+
+#         if status==1:
+#             temp=temp+s[i]
+#             status=0
+#         else:
+#             for k in range(i+1,len(s)):
+#                 if s[i]==s[k]:
+#                     c1=c1+1
+#                 else:
+#                     break
+#             if c1==1:
+#                 temp = temp + s[i]
+#             else:
+
+#                 for m in range(1,c1-1):
+#                     temp = temp + s[i]
+#                 i=i+c1
+#                 c1=1
+
+#     return temp
+
+# s =input("Enter your value n: ")
+# print(check(s))
 
 
 
 
 
 
-func('Your Task  is to Remove Space')
+
+
